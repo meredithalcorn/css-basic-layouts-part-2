@@ -101,6 +101,9 @@ a {
 	width: 240px;
 }
 
+.main-nav li {
+	margin-right: -5px;
+}
 
 	.wrap {
 		min-height: calc(100vh - 89px);
