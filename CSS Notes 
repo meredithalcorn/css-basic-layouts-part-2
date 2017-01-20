@@ -28,3 +28,4 @@ We will change the site name and navigation to display horizontally on wider scr
 USING INLINE-BLOCK to SET WIDTH, HEIGHT, TOP, AND BOTTOM MARGIN AND padding
 --Generates an element that is like a block element but flows with its surroundings as if it is an in-line element.
   -You can style an inline-block item as you would a block level element with width, height, and top bottom margins while keeping it on the same line as the elements beside it.
+  -Change the navigation name and items to be display: inline-block;

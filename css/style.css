@@ -96,11 +96,10 @@ a {
 	.main-nav li {
 	display: inline-block;
 }
-
-	/*.name {
-		width: 240px;
-		margin-right: 50px;
-	}*/
+.name {
+	width: 240px;
+	margin-right: 50px;
+}
 
 
 	.wrap {
