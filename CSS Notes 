@@ -24,3 +24,7 @@ We will change the site name and navigation to display horizontally on wider scr
 --When an element is set to in-line, the browser will not apply any width and height properties, or top and bottom margin settings.  It only accepts the padding-left and padding-right and margin-left and margin-right properties.  The same goes for texts in paragraphs.  In-line elements naturally flow next to each other.
 
   *To add space between the clickable links in our navigation bar, we will target .name a, and .main-nav a to have a padding of 15px;
+
+USING INLINE-BLOCK to SET WIDTH, HEIGHT, TOP, AND BOTTOM MARGIN AND padding
+--Generates an element that is like a block element but flows with its surroundings as if it is an in-line element.
+  -You can style an inline-block item as you would a block level element with width, height, and top bottom margins while keeping it on the same line as the elements beside it.
