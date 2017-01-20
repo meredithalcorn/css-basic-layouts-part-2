@@ -58,7 +58,8 @@ a {
 
 .name a,
 .main-nav a {
-	padding: 15px;
+	padding: 10px 15px;
+	display: block;
 }
 
 .main-nav a:hover {

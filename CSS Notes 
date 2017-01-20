@@ -25,7 +25,7 @@ We will change the site name and navigation to display horizontally on wider scr
 
   *To add space between the clickable links in our navigation bar, we will target .name a, and .main-nav a to have a padding of 15px;
 
-USING INLINE-BLOCK to SET WIDTH, HEIGHT, TOP, AND BOTTOM MARGIN AND padding
+USING INLINE-BLOCK to SET WIDTH, HEIGHT, TOP, AND BOTTOM MARGIN AND PADDING
 
 --Generates an element that is like a block element but flows with its surroundings as if it is an in-line element.
   -You can style an inline-block item as you would a block level element with width, height, and top bottom margins while keeping it on the same line as the elements beside it.
@@ -33,3 +33,7 @@ USING INLINE-BLOCK to SET WIDTH, HEIGHT, TOP, AND BOTTOM MARGIN AND padding
     * Now we can use the margin, width, and height properties.
 
   -The main-nav elements wrap to the next line when browser collapses.  This all because we have used the inline-block property, and it is its default behavior.  We could have adjusted this using a media query.
+
+  -- For our main-nav element, we will make the hover target taller and wider so it's easier to tap on touch screen devices.
+    * By setting the link display value to block, it will make them as wide as their parent elements (this is a bit confusing to me).  Now the full width and height of the links are clickable areas.
+    * The links will take on the top and bottom padding values - height expands by 20 pixels because the top and bottom padding was set to 10px.
