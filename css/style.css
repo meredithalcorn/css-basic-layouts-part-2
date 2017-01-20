@@ -87,6 +87,7 @@ a {
 @media (min-width: 769px) {
 
 	.name,
+	.main-nav,
 	.main-nav li {
 	display: inline;
 }

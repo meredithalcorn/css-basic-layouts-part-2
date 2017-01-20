@@ -19,3 +19,5 @@ WE WILL NOW LEARN HOW TO CHANGE THE DEFAULT BEHAVIORS OF ELEMENTS.
 We will change the site name and navigation to display horizontally on wider screens only using the media query.
 
 --Change the display property for the .name and .main nav li elements to "in-line"
+
+--To place the navigation on the same line as the name element we have to change the unordered list display to in-line as well.  Even though the li items are set to in-line the ul class "main-nav" is a block element.  It will drop below that block element.
