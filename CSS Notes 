@@ -16,4 +16,6 @@ For the navigation bar, the parent container will be the header which is a block
 
 WE WILL NOW LEARN HOW TO CHANGE THE DEFAULT BEHAVIORS OF ELEMENTS.
 
-Change the display property for the .name and .main nav li elements to "in-line"
+We will change the site name and navigation to display horizontally on wider screens only using the media query.
+
+--Change the display property for the .name and .main nav li elements to "in-line"

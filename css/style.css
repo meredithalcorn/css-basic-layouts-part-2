@@ -86,6 +86,12 @@ a {
 
 @media (min-width: 769px) {
 
+	.name,
+	.main-nav li {
+	display: inline;
+}
+
+
 	.wrap {
 		min-height: calc(100vh - 89px);
 	}
