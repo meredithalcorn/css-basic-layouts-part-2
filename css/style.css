@@ -56,6 +56,11 @@ a {
 	text-transform: uppercase;
 }
 
+.name a,
+.main-nav a {
+	padding: 15px;
+}
+
 .main-nav a:hover {
 	color: #093a58;
 }

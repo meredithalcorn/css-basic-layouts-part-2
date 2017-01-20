@@ -16,8 +16,11 @@ For the navigation bar, the parent container will be the header which is a block
 
 WE WILL NOW LEARN HOW TO CHANGE THE DEFAULT BEHAVIORS OF ELEMENTS.
 
-We will change the site name and navigation to display horizontally on wider screens only using the media query.
-
---Change the display property for the .name and .main nav li elements to "in-line"
+We will change the site name and navigation to display horizontally on wider screens only by using the media query.
+  *Change the display property for the .name and .main nav li elements to "in-line"
 
 --To place the navigation on the same line as the name element we have to change the unordered list display to in-line as well.  Even though the li items are set to in-line the ul class "main-nav" is a block element.  It will drop below that block element.
+
+--When an element is set to in-line, the browser will not apply any width and height properties, or top and bottom margin settings.  It only accepts the padding-left and padding-right and margin-left and margin-right properties.  The same goes for texts in paragraphs.  In-line elements naturally flow next to each other.
+
+  *To add space between the clickable links in our navigation bar, we will target .name a, and .main-nav a to have a padding of 15px;
