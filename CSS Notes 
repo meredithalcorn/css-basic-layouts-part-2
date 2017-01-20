@@ -1,0 +1,19 @@
+CONTROLLING LAYOUTS
+--------------------------------------------------------------------
+
+POSITIONING ELEMENTS SIDE BY SIDE WITH INLINE DISPLAY
+
+--------------------------------------------------------------------
+
+Remember, it is best to display mobile layouts as on column layouts because of the narrow viewport.
+
+Every element is a rectangular box that is either block level (that stack on top of each other and aren't side by side on the same line.), or in line elements.  A browser displays block elements them as a single block of content with a break before and after it.
+
+In line elements like images links and span tags do not create line breaks in a layout.  They appear on the same line as the elements and content beside them.
+
+For the navigation bar, the parent container will be the header which is a block.  h1, li, and a tags are all block elements within the navigation bar (<header class="main-header">) As block elements, they each take up an entire line and stretch the full width available to the left and the right.
+
+
+WE WILL NOW LEARN HOW TO CHANGE THE DEFAULT BEHAVIORS OF ELEMENTS.
+
+Change the display property for the .name and .main nav li elements to "in-line"
