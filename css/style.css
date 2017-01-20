@@ -74,6 +74,7 @@ a {
 }
 
 .main-header {
+	text-align: center;
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
 	background: #3acec2;
@@ -93,13 +94,11 @@ a {
 @media (min-width: 769px) {
 
 	.name,
-	.main-nav,
 	.main-nav li {
 	display: inline-block;
 }
 .name {
 	width: 240px;
-	margin-right: 50px;
 }
 
 

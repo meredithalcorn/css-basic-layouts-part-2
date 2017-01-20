@@ -34,6 +34,14 @@ USING INLINE-BLOCK to SET WIDTH, HEIGHT, TOP, AND BOTTOM MARGIN AND PADDING
 
   -The main-nav elements wrap to the next line when browser collapses.  This all because we have used the inline-block property, and it is its default behavior.  We could have adjusted this using a media query.
 
+  -Another advantage to note about the inline-block display is you can easily center a horizontal nav and header.  It is tricker to do with floats.
+    --We will begin by making the name and main nav display on separate lines on wide screens
+      *Remove the .main-nav from the rule in the media query.  .main-nav goes back to being a block level element.
+
+      *To center align elements in the header.  Scroll up to main-header and add "text-align:center;"
+      
+      *Remove right-margin from the .name rule because name and main-nav are on separate lines now
+
   -- For our main-nav element, we will make the hover target taller and wider so it's easier to tap on touch screen devices.
     * By setting the link display value to block, it will make them as wide as their parent elements (this is a bit confusing to me).  Now the full width and height of the links are clickable areas.
     * The links will take on the top and bottom padding values - height expands by 20 pixels because the top and bottom padding was set to 10px.
